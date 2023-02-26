@@ -15,7 +15,7 @@ function loader(element) {
     if(element.textContent === '....'){
       element.textContent = '';
     }
-  }, 400)
+  }, 300)
 }
 
 function typeText(element, text) {
@@ -77,7 +77,7 @@ const handleSubmit = async (e) => {
 
   loader(messageDiv);
 
-  const response = await fetch('http://localhost:5000', {
+  const response = await fetch('https://codexai-s7np.onrender.com', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
