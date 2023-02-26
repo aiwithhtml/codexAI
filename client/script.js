@@ -77,7 +77,7 @@ const handleSubmit = async (e) => {
 
   loader(messageDiv);
 
-  const response = await fetch('https://codexai-s7np.onrender.com', {
+  const response = await fetch('https://codexai-lp7q.onrender.com', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
